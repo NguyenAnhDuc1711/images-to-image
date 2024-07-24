@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+root {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.imgs-container {
+  width: calc(100vw - 300px);
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ebebeb;
+}
